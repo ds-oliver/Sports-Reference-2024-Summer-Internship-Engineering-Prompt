@@ -58,6 +58,13 @@ matrix_df = create_head_to_head_matrix(records_data)
 print(matrix_df)
 ```
 
+## Data Handling and Manipulation
+
+* **Input Data Structure** : The script expects data in a nested dictionary format. This structure is chosen for its intuitive mapping of real-world relationships (team vs. team) and ease of access to specific records.
+* **DataFrame Usage** : pandas DataFrame is utilized for its robust handling of tabular data. It simplifies complex operations like data transformation and alignment.
+* **Iterative Processing** : The script iteratively populates the DataFrame. This approach, combined with pandas' optimized operations, balances readability and performance.
+* **Formatting for Clarity** : The script formats the final matrix to enhance readability - aligning team names, setting a clear diagonal, and ensuring a symmetrical layout.
+
 ## Result
 
 You should end up with a matrix as such:
