@@ -58,6 +58,12 @@ matrix_df = create_head_to_head_matrix(records_data)
 print(matrix_df)
 ```
 
+## Result
+
+You should end up with a matrix as such:
+
+![1705352079407](image/README/1705352079407.png)
+
 ## Contributing
 
 Feel free to fork this repository and submit pull requests to enhance the functionalities or add new features.
